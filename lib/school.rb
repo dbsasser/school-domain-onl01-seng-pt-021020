@@ -23,11 +23,12 @@ def grade(grade_number)
 end
 
 def sort
-  new_array = []
+  new_hash = {}
     roster.each do |grade, kids|
       new_array[grade]= kids.sort
-  end
-  new_array
+    end
+  new_hash
+  
 end
   
 end
