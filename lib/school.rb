@@ -25,7 +25,7 @@ end
 def sort
   new_hash = {}
     roster.each do |grade, kids|
-      new_array[grade]= kids.sort
+      new_hash[grade]= kids.sort
     end
   new_hash
   
