@@ -24,7 +24,8 @@ end
 
 def sort
   @roster.collect |grade, kids|
-    return @roster[grade].sorted
+    @roster[grade].sorted
+  end
 
 end
   
