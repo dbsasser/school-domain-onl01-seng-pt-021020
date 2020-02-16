@@ -23,7 +23,8 @@ def grade(grade_number)
 end
 
 def sort
-  @roster.values.sort 
+  @roster.collect |grade, kids|
+
 end
   
 end
