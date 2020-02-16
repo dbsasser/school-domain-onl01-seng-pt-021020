@@ -25,7 +25,7 @@ end
 def sort
   new_array = []
     @roster.map do |grade, kids|
-      newarray[grade]= kids.sort
+      new_array[grade]= kids.sort
   end
   new_array
 end
