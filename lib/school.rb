@@ -23,10 +23,11 @@ def grade(grade_number)
 end
 
 def sort
+  new_array = []
     @roster.map do |grade, kids|
-      grade = kids.sort
+      newarray[grade]= kids.sort
   end
-
+  new_array
 end
   
 end
