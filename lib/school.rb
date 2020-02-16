@@ -23,7 +23,8 @@ def grade(grade_number)
 end
 
 def sort
-    @roster[grade].sorted
+    @roster.map do |grade, kids|
+      
   end
 
 end
