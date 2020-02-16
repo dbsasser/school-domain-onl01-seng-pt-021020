@@ -23,7 +23,6 @@ def grade(grade_number)
 end
 
 def sort
-  @roster.collect |grade|
     @roster[grade].sorted
   end
 
