@@ -23,7 +23,7 @@ def grade(grade_number)
 end
 
 def sort
-  @roster.values 
+  @roster.values.sort 
 end
   
 end
