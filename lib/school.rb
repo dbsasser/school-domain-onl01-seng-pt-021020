@@ -24,7 +24,7 @@ end
 
 def sort
     @roster.map do |grade, kids|
-      
+      grade = kids.sorted
   end
 
 end
